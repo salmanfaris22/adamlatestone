@@ -1,0 +1,12 @@
+.h {
+    align-self: flex-end;
+    display: inline-flex;
+    flex-flow: row;
+    font-size: var(--h1-clamp);
+    line-height: 0.75;
+    margin: 0 auto 6rem auto;
+    position: relative;
+    text-align: center;
+    z-index: var(--z-30);
+  }
+  
