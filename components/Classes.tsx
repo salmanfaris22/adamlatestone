@@ -71,7 +71,7 @@ viewport={{  once:false,amount:0.2}}
               <div>
                 <CustomButton
                 containerStyles='w-[164px] h-[46px]'
-                text='get Know'
+                text='get now'
                 
                 />
               </div>
