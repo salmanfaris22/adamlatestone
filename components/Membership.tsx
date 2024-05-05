@@ -85,11 +85,17 @@ const Membership = () => {
                  initial='hidden'
                  whileInView={'show'}
                  viewport={{  once:false,amount:0.2}}
-              >
-                <CustomButton
+              ><div>
+
+<a href="https://wa.link/3jc06g">
+
+               <CustomButton
                 containerStyles='w-[164px] h-[46px]'
                 text='by now'
                 />
+</a>
+              </div>
+              
               </motion.div>
             </a>
             <p className="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
@@ -127,10 +133,16 @@ const Membership = () => {
                  whileInView={'show'}
                  viewport={{  once:false,amount:0.2}}
               >
-                <CustomButton
+               <div>
+
+<a href="https://wa.link/3jc06g">
+
+               <CustomButton
                 containerStyles='w-[164px] h-[46px]'
                 text='by now'
                 />
+</a>
+              </div>
               </motion.div>
             </a>
             <p className="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
@@ -174,10 +186,16 @@ const Membership = () => {
                  whileInView={'show'}
                  viewport={{  once:false,amount:0.2}}
               >
-                <CustomButton
+              <div>
+
+<a href="https://wa.link/3jc06g">
+
+               <CustomButton
                 containerStyles='w-[164px] h-[46px]'
-                 text='by now'
+                text='by now'
                 />
+</a>
+              </div>
               </motion.div>
             </a>
             <p className="max-w-xs mt-6 text-xs text-gray-600 sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">

@@ -36,8 +36,9 @@ const Testimonial = () => {
           <figcaption className="mt-10">
             <Image
               className="mx-auto h-10 w-10 rounded-full"
-              src="https://th.bing.com/th/id/OIP.ueWoSOP2NBNORHxxLiuXxQHaHa?rs=1&pid=ImgDetMain"
+              src="/assets/next.png"
               alt=""
+              fill
             />
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
               <div className="font-semibold text-gray-900">Judith Black</div>
@@ -65,11 +66,7 @@ const Testimonial = () => {
             </p>
           </blockquote>
           <figcaption className="mt-10">
-            <Image
-              className="mx-auto h-10 w-10 rounded-full"
-              src="https://img.freepik.com/premium-photo/portrait-handsome-asian-man-image-generated-by-ai_803126-1222.jpg"
-              alt=""
-            />
+        
             <div className="mt-4 flex items-center justify-center space-x-3 text-base">
               <div className="font-semibold text-gray-900">jeffry</div>
               <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">

@@ -64,12 +64,20 @@ viewport={{  once:false,amount:0.2}}
             '>
               <h3 className='h3 text-white '> {item.name}</h3>
               <p className='text-white'>{item.desc}</p>
+
+              
+              <a href="">
+
               <div>
                 <CustomButton
                 containerStyles='w-[164px] h-[46px]'
-                text='Read more'
+                text='get Know'
+                
                 />
               </div>
+
+              </a>
+            
 
             </motion.div>
             </div>

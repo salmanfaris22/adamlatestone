@@ -35,8 +35,7 @@ const Blog = () => {
       viewport={{  once:false,amount:0.2}}
           className="relative">
 
-<Image src="/assets/img/hero/bg2.png" alt="" className="w-full relative z-10 p-12 ml-4 bg-cover bg-center bg-no-repeat" />
-
+            <Image src="/assets/img/hero/bg3.png" alt="" className="w-full relative z-10 p-12 ml-4 bg-cover bg-center bg-no-repeat "  />
             <motion.div
                
       variants={fadeIn('up',0.5)}
@@ -66,6 +65,7 @@ const Blog = () => {
             <div className="inline-block align-bottom mr-5">
               
             </div>
+            
             <motion.div
                   variants={fadeIn('up',0.6)}
                   initial='hidden'
@@ -73,8 +73,13 @@ const Blog = () => {
                   viewport={{  once:false,amount:0.2}}
             
             
-            className="inline-block align-bottom">
-            <CustomButton text='Get started' containerStyles='w-[196px] h-[62px]'/>
+            className="inline-block align-bottom"><a  href="https://wa.link/3jc06g">
+
+<CustomButton text='Entroll Know' containerStyles='w-[196px] h-[62px]'/>
+            </a>
+           
+            
+            
             </motion.div>
           </div>
         </div>

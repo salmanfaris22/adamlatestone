@@ -24,10 +24,12 @@ const Brands = () => {
       
       className="flex flex-wrap justify-center gap-2">
         <button className=" p-2 font-semibold text-white inline-flex items-center space-x-2 rounded">
-       <a href="https://www.instagram.com/adamsalimfitnesstrainer/"> <Image className='className="w-16 h-16 fill-current"' src="https://th.bing.com/th/id/OIP.xa0FgRBsvMi7bmVNCDYsCgHaHa?rs=1&pid=ImgDetMain" alt="" /></a>
+       <a href="https://www.instagram.com/adamsalimfitnesstrainer/"><Image className="w-16 h-16 fill-current" src="/assets/insta.jpg" alt="" width={100} height={100} />
+</a>
         </button>
         <button className="p-2 font-semibold text-white inline-flex items-center space-x-2 rounded" >
-       <a href="https://wa.link/3jc06g"> <Image className='className="w-16 h-16 fill-current"' src="https://th.bing.com/th/id/OIP.qeBL7LoMSOxJnY_hd_ZOZgAAAA?rs=1&pid=ImgDetMain" alt=""  /></a>
+       <a href="https://wa.link/3jc06g"> <Image className="w-16 h-16 fill-current" src="/assets/wat.jpg" alt="" width={100} height={100}  />
+</a>
         </button>
        
       </motion.div>

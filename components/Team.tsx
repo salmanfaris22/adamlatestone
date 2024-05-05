@@ -394,7 +394,9 @@ const Team = () => {
              initial='hidden'
              whileInView={'show'}
              viewport={{  once:false,amount:0.2}}
-          >    <Image className="mx-auto -mt-36 md:-mt-36" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" alt={''} />
+          >    <div style={{width: "100%"}}>
+            <Image fill className="mx-auto -mt-36 w-full md:-mt-36 ss" src="/assets/eqp.png" alt='no img' />
+            </div>
 
           </motion.div>
       
